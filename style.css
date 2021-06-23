@@ -1,0 +1,166 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: auto;
+    box-sizing: border-box;
+    width: 1100px;
+}
+.banner{
+    float: left;
+    
+}
+.left{
+    float: left;
+    border: 1px solid black;
+    width: 700px;
+    height: 30px;
+    display: flex;
+}
+.left a{
+    text-decoration: none;
+}
+.right{
+    float: right;
+    width: 300px;
+    display: flex;
+    line-height: 20px;
+    border: 0.5px solid black;
+    height: 20px;
+ }
+ .right p a button{
+     margin-left: 0px;
+     width: 70px;
+ }
+ .search-container{
+     margin-left: 15px;
+     padding-bottom: 0px;
+    
+    
+ }
+
+ .search-container input{
+     width: 100px;
+     position: relative;
+     top: 0px; 
+     transition: 0.2s ease-
+ }   
+
+.youtube{
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+.flow{
+    border-radius: 10px;
+    background-color:  rgb(14, 90, 204);
+    color: white;
+    cursor: pointer;
+}
+.like{
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+
+
+#menu{
+    height: 30px;
+    float: left;
+    width: 1300px;
+}
+#menu ul li{
+    display: inline-block;
+    margin-bottom: 200px;
+    padding-left: 10px;
+    text-decoration: none;
+    color: rgb(110, 13, 62);
+    font-weight: bold;
+}
+#menu li a{
+    text-decoration: none;
+    display: block;
+    height: 15px;
+    line-height: 15px;
+    color: #0f0f0f;
+   
+    padding: 0px 1px 0px 1px;
+    border-right: 1px soloid rgb(7, 7, 7);
+    margin-right: -10px;
+}
+.leftmain{
+    width: 580px;
+    float: left;
+}
+.tin1{
+   line-height: 30px;
+}
+.tin1 a{
+    font-size: 21px;
+    text-decoration: none;
+    color: rgb(155, 32, 32) ;
+}
+.tn{
+    height: 30px;
+    line-height: 35px;
+}
+.tn a{
+   background-color: rgb(206, 206, 206);
+   padding: 5px;
+   text-decoration: none;
+   width: 120px;
+   height: 120px;
+   color: rgb(155, 32, 32) ;
+   font-weight: bold;
+}
+.midmain{
+    width: 170px;
+    float: left;
+}
+.english{
+    float: right;
+    height: 30px;
+}
+.english a{
+    line-height: 30px;
+    background-color: rgb(206, 206, 206);
+    padding: 5px;
+    text-decoration: none;
+    width: 100px;
+    height: 100px;
+}
+.tin2{
+    margin-top: 30px;
+}
+.tin2 p{
+    margin-top: 10px;
+    border: outset;
+    font-size: 16px;
+}
+
+.view a{
+  
+   padding: 20px;
+   text-decoration: none;
+  
+   color: rgb(155, 32, 32) ;
+   font-weight: bold;
+}
+.rightmain{
+    margin-left: 20px;
+    width: 100px;
+    float: left;
+    width: 320px;
+}
+.date{
+    line-height: 30px;
+    height: 30px;
+    
+}
+
